@@ -85,11 +85,13 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "day"{
             
-        }
+        
         // Get the new view controller using segue.destination.
         let vc = segue.destination as!  InfoViewController
         // Pass the selected object to the new view controller.
-        vc.infoText = "Day finder helps you \nto find weekday for given date."
+            vc.infoText = "Day finder helps you \nto find weekday for given date."
+            
+        }
     }
     
     
